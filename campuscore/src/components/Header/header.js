@@ -26,7 +26,7 @@ function Header() {
           <p>Profil</p>
         </div>
         <div className="header-block2-right">
-          <div>
+          <div className="user-name2">
             <FaUser />
           </div>
         </div>

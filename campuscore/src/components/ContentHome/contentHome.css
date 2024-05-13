@@ -1,0 +1,15 @@
+.createCompetition{
+    width: 95%;
+    height: 80px;
+    background-color: #fff;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(223, 72, 72);
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+span{
+    font-size: 24px;
+}
