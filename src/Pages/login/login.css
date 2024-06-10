@@ -1,0 +1,75 @@
+.loginbox{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.box{
+    display: block;
+    width: 400px;
+    height: auto;
+    padding: 10px 10px 20px 10px;
+    background: #f9f9f9;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+}
+
+.form{
+    display: block;
+    width: 360px;
+    height: 50px;
+    margin: 10px;
+    text-indent: 10px;
+    border: 1px solid #e8e8e8;
+    transition: 0.3s;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form:focus{
+    border: 1px solid #09F;
+    box-shadow: 0px 0px 0px 3px rgb(174, 217, 246);
+}
+
+.marge{
+    margin: 10px 0px 20px 0px;
+}
+
+.btn.btn-action{
+    display: block;
+    background: #09F;
+    margin: 10px;
+    color: #fff;
+    height: 45px;
+    width: 360px;
+    transition: 0.3s;
+    font-weight: bold;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn.btn-action:hover{
+    background: rgb(71, 181, 255);
+}
+
+.restyle{
+    text-decoration: none;
+}
+
+.msgline{
+    color: #999;
+}
+
+.btn.btn-action.color2{
+    background: #18B36A;
+}
+
+.btn.btn-action.color2:hover{
+    background: #2ecb82;
+}
+.text-error{
+    color: red;
+}
